@@ -1,0 +1,28 @@
+{
+  "common": {
+    "header": {
+      "menu": {
+        "aboutMe": "About me",
+        "projects": "Projects",
+        "mySkills": "My skills",
+        "contact": "Contact"
+      }
+    },
+    "Start": {
+      "firstSentence": {
+        "partOne": "Hello! ",
+        "partTwo": "welcome."
+      },
+      "secondSentence": {
+        "partOne": "My name is ",
+        "partTwo": "Lucas C. Ferreira,",
+        "partThree": "nice to meet you."
+      },
+      "thirdSentence": {
+        "partOne": "To know more about me, ",
+        "partTwo": "type something up there! ",
+        "partThree": "or if you prefer, just keep on scrolling. :)"
+      }
+    }
+  }
+}

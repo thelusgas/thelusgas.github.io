@@ -1,0 +1,28 @@
+{
+  "common": {
+    "header": {
+      "menu": {
+        "aboutMe": "Sobre mim",
+        "projects": "Projetos",
+        "mySkills": "Conhecimentos",
+        "contact": "Contato"
+      }
+    },
+    "Start": {
+      "firstSentence": {
+        "partOne": "Olá! ",
+        "partTwo": "seja bem vindo."
+      },
+      "secondSentence": {
+        "partOne": "Meu nome é ",
+        "partTwo": "Lucas C. Ferreira,",
+        "partThree": "prazer em conhecê-lo."
+      },
+      "thirdSentence": {
+        "partOne": "Para saber mais sobre mim, ",
+        "partTwo": "digite algo ali em cima! ",
+        "partThree": "ou se preferir, apenas role para baixo. :)"
+      }
+    }
+  }
+}
