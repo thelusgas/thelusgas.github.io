@@ -21,6 +21,7 @@ declare module 'styled-components' {
       primary: Palette;
       secondary: Palette;
       tertiary: Palette;
+      quarternary: Palette;
 
       background: Color;
       backgroundVariant: Color;

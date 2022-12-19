@@ -29,7 +29,24 @@ export const GlobalStyle = styled.createGlobalStyle`
     line-height: 1.5;
 
     font-family: ${({ theme }) => theme.typography.fontFamily.primary};
-    color: ${({ theme }) => theme.color.onBackground};
+    color: ${({ theme }) => theme.color.foreground};
+
+    & div#root {
+      display: flex;
+      flex-direction: column;
+      gap: 2.4rem;
+
+      height: 100vh;
+      width: 100vw;
+
+      align-items: center;
+      padding: 2.4rem;
+
+      @media (${({ theme }) => theme.media.medium}) {
+        justify-content: center;
+      }
+      background: ${({ theme }) => theme.color.background};
+    }
   }
 
   h1 {
@@ -106,6 +123,6 @@ export const GlobalStyle = styled.createGlobalStyle`
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: ${({ theme }) => theme.color.outline};
+    background-color: ${({ theme }) => theme.color.foreground};
   }
 `;

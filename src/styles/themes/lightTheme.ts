@@ -39,9 +39,9 @@ export const lightTheme: DefaultTheme = {
 
   color: {
     primary: {
-      light: '#f8ece1',
-      main: '#efd7c2',
-      dark: '#fac5ad',
+      light: '#fad789',
+      main: '#f8c555',
+      dark: '#fcb821',
     },
     secondary: {
       light: '#e6e8fc',
@@ -53,8 +53,13 @@ export const lightTheme: DefaultTheme = {
       main: '#aadbdb',
       dark: '#6e8e8e',
     },
+    quarternary: {
+      light: '#f8ece1',
+      main: '#efd7c2',
+      dark: '#fac5ad',
+    },
 
-    background: '#ffffff',
+    background: '#fffff4',
     backgroundVariant: '#f5f5f5',
 
     foreground: '#1c1b1f',
