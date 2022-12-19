@@ -2,10 +2,9 @@ import 'styled-components';
 import { Color } from '@core/types';
 
 interface Palette {
+  light: Color;
   main: Color;
-  onMain: Color;
-  container: Color;
-  onContainer: Color;
+  dark: Color;
 }
 
 declare module 'styled-components' {
@@ -22,18 +21,12 @@ declare module 'styled-components' {
       primary: Palette;
       secondary: Palette;
       tertiary: Palette;
-      error: Palette;
 
       background: Color;
-      onBackground: Color;
-
-      surface: Color;
-      onSurface: Color;
-
-      surfaceVariant: Color;
-      onSurfaceVariant: Color;
-
-      outline: Color;
+      backgroundVariant: Color;
+      foreground: Color;
+      foregroundVariant: Color;
+      foregroundVariant2: Color;
     };
 
     typography: {

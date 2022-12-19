@@ -1,6 +1,6 @@
 import { DefaultTheme } from 'styled-components';
 
-export const darkTheme: DefaultTheme = {
+export const lightTheme: DefaultTheme = {
   media: {
     superLarge: `(min-width: 1400px)`,
     extraLarge: `(min-width: 1200px)`,
@@ -12,7 +12,7 @@ export const darkTheme: DefaultTheme = {
   typography: {
     fontFamily: {
       primary: `'Rubik', serif`,
-      secondary: `'Fira Sans', sans-serif`,
+      secondary: `'Unbounded', sans-serif`,
     },
     fontSize: {
       s: 1.4,
@@ -39,37 +39,26 @@ export const darkTheme: DefaultTheme = {
 
   color: {
     primary: {
-      main: '#85cfff',
-      onMain: '#00344c',
-      container: '#004c6c',
-      onContainer: '#c7e7ff',
+      light: '#f8ece1',
+      main: '#efd7c2',
+      dark: '#fac5ad',
     },
     secondary: {
-      main: '#ffb3b0',
-      onMain: '#93001a',
-      container: '#ff4d4d',
-      onContainer: '#ffdad8',
+      light: '#e6e8fc',
+      main: '#ccd1f9',
+      dark: '#7b7cf7',
     },
     tertiary: {
-      main: '#ffb1c0',
-      onMain: '#610e2a',
-      container: '#7f2640',
-      onContainer: '#ffd9df',
-    },
-    error: {
-      main: '#ffb4ab',
-      onMain: '#690005',
-      container: '#93000a',
-      onContainer: '#ffdad6',
+      light: '#c5efff',
+      main: '#aadbdb',
+      dark: '#6e8e8e',
     },
 
-    background: '#191c1e',
-    onBackground: '#e2e2e5',
+    background: '#ffffff',
+    backgroundVariant: '#f5f5f5',
 
-    surface: '#2e3133',
-    onSurface: '#e2e2e5',
-    surfaceVariant: '#41484d',
-    onSurfaceVariant: '#c1c7ce',
-    outline: '#8b9198',
+    foreground: '#1c1b1f',
+    foregroundVariant: '#adadae',
+    foregroundVariant2: '#8f847a',
   },
 };
