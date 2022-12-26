@@ -1,11 +1,10 @@
-import 'styled-components';
+import { FlattenSimpleInterpolation } from 'styled-components';
 import { Color } from '@core/types';
 
 interface Palette {
+  light: Color;
   main: Color;
-  onMain: Color;
-  container: Color;
-  onContainer: Color;
+  dark: Color;
 }
 
 declare module 'styled-components' {
@@ -22,31 +21,28 @@ declare module 'styled-components' {
       primary: Palette;
       secondary: Palette;
       tertiary: Palette;
-      error: Palette;
+      quarternary: Palette;
 
       background: Color;
-      onBackground: Color;
-
-      surface: Color;
-      onSurface: Color;
-
-      surfaceVariant: Color;
-      onSurfaceVariant: Color;
-
-      outline: Color;
+      backgroundVariant: Color;
+      foreground: Color;
+      foregroundVariant: Color;
+      foregroundVariant2: Color;
     };
 
     typography: {
       fontFamily: {
         primary: string;
         secondary: string;
+        tertiary: string;
       };
       fontSize: {
-        s: number;
-        m: number;
-        l: number;
-        xl: number;
-        xxl: number;
+        s: FlattenSimpleInterpolation;
+        m: FlattenSimpleInterpolation;
+        l: FlattenSimpleInterpolation;
+        xl: FlattenSimpleInterpolation;
+        xxl: FlattenSimpleInterpolation;
+        xxxl: FlattenSimpleInterpolation;
       };
 
       lineHeight: {
