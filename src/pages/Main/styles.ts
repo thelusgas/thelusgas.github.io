@@ -10,6 +10,8 @@ export const Wrapper = styled.div`
 
   border: ${({ theme }) => theme.color.foreground} 3px solid;
   box-shadow: 5px 5px 0 0 ${({ theme }) => theme.color.foreground};
+
+  width: 100%;
 `;
 
 export const Content = styled.main`

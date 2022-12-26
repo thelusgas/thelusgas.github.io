@@ -34,6 +34,7 @@ declare module 'styled-components' {
       fontFamily: {
         primary: string;
         secondary: string;
+        tertiary: string;
       };
       fontSize: {
         s: number;
@@ -41,6 +42,7 @@ declare module 'styled-components' {
         l: number;
         xl: number;
         xxl: number;
+        xxxl: number;
       };
 
       lineHeight: {

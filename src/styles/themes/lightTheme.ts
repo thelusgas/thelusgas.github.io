@@ -13,20 +13,22 @@ export const lightTheme: DefaultTheme = {
     fontFamily: {
       primary: `'Rubik', serif`,
       secondary: `'Unbounded', sans-serif`,
+      tertiary: `'Space Mono', monospace`,
     },
     fontSize: {
       s: 1.4,
       m: 1.6,
-      l: 2.4,
-      xl: 3.2,
-      xxl: 4.8,
+      l: 3.2,
+      xl: 6.4,
+      xxl: 9.6,
+      xxxl: 12.8,
     },
     lineHeight: {
       s: 2,
       m: 2.4,
-      l: 3.6,
-      xl: 4.8,
-      xxl: 6,
+      l: 4,
+      xl: 7.2,
+      xxl: 10,
     },
     fontWeight: {
       light: 300,

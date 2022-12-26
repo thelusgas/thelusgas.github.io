@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import clouds from '@assets/background/bg-clouds.svg';
 
 const styled = { createGlobalStyle };
 
@@ -45,7 +46,8 @@ export const GlobalStyle = styled.createGlobalStyle`
       @media (${({ theme }) => theme.media.medium}) {
         justify-content: center;
       }
-      background: ${({ theme }) => theme.color.background};
+      background: ${({ theme }) => theme.color.background} url(${clouds}) repeat;
+      background-blend-mode: multiply;
     }
   }
 
