@@ -1,4 +1,4 @@
-import { DefaultTheme } from 'styled-components';
+import { css, DefaultTheme } from 'styled-components';
 
 export const lightTheme: DefaultTheme = {
   media: {
@@ -16,12 +16,24 @@ export const lightTheme: DefaultTheme = {
       tertiary: `'Space Mono', monospace`,
     },
     fontSize: {
-      s: 1.4,
-      m: 1.6,
-      l: 3.2,
-      xl: 6.4,
-      xxl: 9.6,
-      xxxl: 12.8,
+      s: css`
+        font-size: 1.4rem;
+      `,
+      m: css`
+        font-size: clamp(0.8rem, 2.5vw, 1.6rem);
+      `,
+      l: css`
+        font-size: clamp(1.6rem, 2.5vw, 3.2rem);
+      `,
+      xl: css`
+        font-size: clamp(3.2rem, 5vw, 6.4rem);
+      `,
+      xxl: css`
+        font-size: clamp(4.8rem, 7.5vw, 9.6rem);
+      `,
+      xxxl: css`
+        font-size: clamp(6.4rem, 10vw, 12.8rem);
+      `,
     },
     lineHeight: {
       s: 2,

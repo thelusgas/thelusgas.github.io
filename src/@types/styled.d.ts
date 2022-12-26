@@ -1,4 +1,4 @@
-import 'styled-components';
+import { FlattenSimpleInterpolation } from 'styled-components';
 import { Color } from '@core/types';
 
 interface Palette {
@@ -37,12 +37,12 @@ declare module 'styled-components' {
         tertiary: string;
       };
       fontSize: {
-        s: number;
-        m: number;
-        l: number;
-        xl: number;
-        xxl: number;
-        xxxl: number;
+        s: FlattenSimpleInterpolation;
+        m: FlattenSimpleInterpolation;
+        l: FlattenSimpleInterpolation;
+        xl: FlattenSimpleInterpolation;
+        xxl: FlattenSimpleInterpolation;
+        xxxl: FlattenSimpleInterpolation;
       };
 
       lineHeight: {

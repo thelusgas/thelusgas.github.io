@@ -27,7 +27,7 @@ export const Button = styled.button<{
 
   font-family: ${({ theme }) => theme.typography.fontFamily.secondary};
   font-weight: ${({ theme }) => theme.typography.fontWeight.bold};
-  font-size: ${({ theme }) => theme.typography.fontSize.l}rem;
+  ${({ theme }) => theme.typography.fontSize.l};
 
   border: ${({ theme }) => theme.color.foreground} 3px solid;
   box-shadow: 5px 5px 0 0 ${({ theme }) => theme.color.foreground};
